@@ -12,12 +12,10 @@ function HeroContent() {
 					A creative
 					<img src={StarImg} alt="StarImg" />
 				</span>{" "}
-				design studio
+				multimedia agency
 			</h1>
 			<p>
-				{`We're a creative design studio specializing in meeting the needs of the new generation.
-								We offer innovative and cutting-edge design solutions to help our clients stand out in
-								today's fast-paced.`}
+				{`We create stunning websites, manage innovative designs, promote your brand, and handle all your Social Media needs.`}
 			</p>
 			<div className="Svision-hero-user-wrap">
 				<div className="Svision-hero-user-thumb">
@@ -32,7 +30,7 @@ function HeroContent() {
 					</div>
 				</div>
 				<div className="Svision-hero-user-data">
-					<p>Believed by more than a thousand people</p>
+					<p>Believed by more than a hundred people</p>
 				</div>
 			</div>
 			<Link className="Svision-call-btn" to="/contact-us">
