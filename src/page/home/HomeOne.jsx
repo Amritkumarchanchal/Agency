@@ -53,7 +53,7 @@ const teamsData = [
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Yash",
+		name: "Poshika",
 		designation: "Senior Designer",
 		img: Team2Img,
 	},
