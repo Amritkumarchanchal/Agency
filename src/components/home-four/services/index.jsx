@@ -46,17 +46,17 @@ const serviceData = [
 ];
 function Services() {
 	return (
-		<div className="section aximo-section-padding3 position-relative">
+		<div className="section Svision-section-padding3 position-relative">
 			<div className="container">
-				<div className="aximo-section-title arimo-font">
+				<div className="Svision-section-title arimo-font">
 					<div className="row">
 						<div className="col-lg-7">
-							<span className="aximo-subtitle">Our amazing services</span>
+							<span className="Svision-subtitle">Our amazing services</span>
 							<h2>We provide various essential services</h2>
 						</div>
 						<div className="col-lg-5 d-flex align-items-end justify-content-end">
-							<div className="aximo-title-btn">
-								<Link className="aximo-default-btn pill blue-btn" to="/service">
+							<div className="Svision-title-btn">
+								<Link className="Svision-default-btn pill blue-btn" to="/service">
 									View all services
 								</Link>
 							</div>

@@ -2,7 +2,7 @@ import DarkLogoImg from "../../../assets/images/logo/logo-dark.svg";
 import { Link } from "react-router-dom";
 function FooterAbout() {
 	return (
-		<div className="aximo-footer-textarea">
+		<div className="Svision-footer-textarea">
 			<Link href="/">
 				<img src={DarkLogoImg} alt="Logo" />
 			</Link>
@@ -10,7 +10,7 @@ function FooterAbout() {
 				We are a branding agency that digitally works to help companies grow. We have a successful track record
 				of working with various organizations.
 			</p>
-			<div className="aximo-social-icon aximo-social-icon4">
+			<div className="Svision-social-icon Svision-social-icon4">
 				<ul>
 					<li>
 						<a href="https://twitter.com/" target="_blank">

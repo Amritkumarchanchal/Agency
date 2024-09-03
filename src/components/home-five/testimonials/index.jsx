@@ -41,16 +41,16 @@ const swiperSettings = {
 };
 function Testimonials() {
 	return (
-		<div className="section aximo-section-padding2">
+		<div className="section Svision-section-padding2">
 			<div className="container">
-				<div className="aximo-section-title libre-font">
+				<div className="Svision-section-title libre-font">
 					<div className="row">
 						<div className="col-lg-7">
 							<h2>Reviews from our satisfied customers</h2>
 						</div>
 					</div>
 				</div>
-				<div className="swiper aximo-testimonial-slider">
+				<div className="swiper Svision-testimonial-slider">
 					{
 						<Swiper {...swiperSettings}>
 							{testimonialsData.map((testimonial) => (

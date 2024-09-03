@@ -1,11 +1,11 @@
 import Star2Img from "../../../assets/images/v1/star2.png";
 function Content() {
 	return (
-		<div className="aximo-default-content">
+		<div className="Svision-default-content">
 			<h2>
-				<span className="aximo-title-animation">
+				<span className="Svision-title-animation">
 					Our high-quality
-					<span className="aximo-title-icon">
+					<span className="Svision-title-icon">
 						<img src={Star2Img} alt="Star2Img" />
 					</span>
 				</span>{" "}

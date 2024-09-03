@@ -13,15 +13,15 @@ function ContactForm() {
 		console.log("Submite Form Data = ", formData);
 	};
 	return (
-		<div className="section aximo-section-padding">
+		<div className="section Svision-section-padding">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-8">
-						<div className="aximo-section-title">
+						<div className="Svision-section-title">
 							<h2>
-								<span className="aximo-title-animation">
+								<span className="Svision-title-animation">
 									Contact us for a
-									<span className="aximo-title-icon">
+									<span className="Svision-title-icon">
 										<img src={Star2Img} alt="Star" />
 									</span>
 								</span>
@@ -33,7 +33,7 @@ function ContactForm() {
 
 				<div className="row">
 					<div className="col-lg-5 order-lg-2">
-						<div className="aximo-contact-thumb ">
+						<div className="Svision-contact-thumb ">
 							<LazyLoadImage
 								src={ContactThumb}
 								width={397}
@@ -44,9 +44,9 @@ function ContactForm() {
 						</div>
 					</div>
 					<div className="col-lg-7">
-						<div className="aximo-main-form">
+						<div className="Svision-main-form">
 							<form onSubmit={handleSubmit(submitForm)}>
-								<div className="aximo-main-field">
+								<div className="Svision-main-field">
 									<Field label="Your Name" error={errors.name}>
 										<input
 											{...register("name", { required: "Name is required." })}
@@ -56,7 +56,7 @@ function ContactForm() {
 										/>
 									</Field>
 								</div>
-								<div className="aximo-main-field">
+								<div className="Svision-main-field">
 									<Field label="Enter email address" error={errors.email}>
 										<input
 											{...register("email", { required: "Email is required." })}
@@ -66,7 +66,7 @@ function ContactForm() {
 										/>
 									</Field>
 								</div>
-								<div className="aximo-main-field">
+								<div className="Svision-main-field">
 									<Field label="Enter Phone Number" error={errors.phone}>
 										<input
 											{...register("phone", { required: "Phone is required." })}
@@ -76,11 +76,11 @@ function ContactForm() {
 										/>
 									</Field>
 								</div>
-								<div className="aximo-main-field">
+								<div className="Svision-main-field">
 									<label>Write your message here...</label>
 									<textarea name="textarea"></textarea>
 								</div>
-								<button id="aximo-main-btn" type="submit">
+								<button id="Svision-main-btn" type="submit">
 									Send Message
 								</button>
 							</form>

@@ -2,22 +2,22 @@ import LogoLargImg from "../../../assets/images/v3/logo-large.svg";
 import { Link } from "react-router-dom";
 function Footer() {
 	return (
-		<footer className="aximo-footer-section">
+		<footer className="Svision-footer-section">
 			<div className="container">
-				<div className="aximo-footer-top2">
+				<div className="Svision-footer-top2">
 					<Link to="/">
 						<img src={LogoLargImg} alt="Logo" />
 					</Link>
 				</div>
-				<div className="aximo-footer-bottom three">
+				<div className="Svision-footer-bottom three">
 					<div className="row">
 						<div className="col-xl-6">
-							<div className="aximo-copywright three">
+							<div className="Svision-copywright three">
 								<p>&copy;Copyright 2024, All Rights Reserved by Mthemeus</p>
 							</div>
 						</div>
 						<div className="col-xl-6">
-							<div className="aximo-footer-menu2">
+							<div className="Svision-footer-menu2">
 								<ul>
 									<li>
 										<Link to="/">Home</Link>

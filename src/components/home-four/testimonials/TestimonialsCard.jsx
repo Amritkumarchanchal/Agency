@@ -7,10 +7,10 @@ function TestimonialsCard() {
 		<>
 			<div className="row">
 				<div className="col-lg-4">
-					<div className="aximo-counter-wrap4">
-						<div className="aximo-counter-data4">
+					<div className="Svision-counter-wrap4">
+						<div className="Svision-counter-data4">
 							<h2>
-								<span className="aximo-counter">
+								<span className="Svision-counter">
 									<CountUp end={80} duration={3} redraw={true} enableScrollSpy />
 								</span>
 								k+
@@ -20,22 +20,22 @@ function TestimonialsCard() {
 					</div>
 				</div>
 				<div className="col-lg-8">
-					<div className="aximo-testimonial-wrap aximo-testimonial-wrap3">
-						<div className="aximo-testimonial-quote">
+					<div className="Svision-testimonial-wrap Svision-testimonial-wrap3">
+						<div className="Svision-testimonial-quote">
 							<img src={QuoteImg} alt="QuoteImg" />
 						</div>
-						<div className="aximo-testimonial-data">
+						<div className="Svision-testimonial-data">
 							<p>
 								Excellent customer service and I was really impressed and happy with my purchase
 								especially as it was a last minute order which got to me in time, and when it arrived I
 								was very happy with the design and size and so was the recipient.
 							</p>
 						</div>
-						<div className="aximo-testimonial-author">
-							<div className="aximo-testimonial-author-thumb">
+						<div className="Svision-testimonial-author">
+							<div className="Svision-testimonial-author-thumb">
 								<img src={Thumb1Img} alt="Thumb1Img" />
 							</div>
-							<div className="aximo-testimonial-author-data">
+							<div className="Svision-testimonial-author-data">
 								<span>William Jack </span>
 								<p>CEO & Founder @XYZ</p>
 							</div>
@@ -45,10 +45,10 @@ function TestimonialsCard() {
 			</div>
 			<div className="row">
 				<div className="col-lg-4 order-lg-2">
-					<div className="aximo-counter-wrap4">
-						<div className="aximo-counter-data4">
+					<div className="Svision-counter-wrap4">
+						<div className="Svision-counter-data4">
 							<h2>
-								<span className="aximo-counter">
+								<span className="Svision-counter">
 									<CountUp end={200} duration={3} redraw={true} enableScrollSpy />
 								</span>
 								+
@@ -58,22 +58,22 @@ function TestimonialsCard() {
 					</div>
 				</div>
 				<div className="col-lg-8">
-					<div className="aximo-testimonial-wrap aximo-testimonial-wrap3">
-						<div className="aximo-testimonial-quote">
+					<div className="Svision-testimonial-wrap Svision-testimonial-wrap3">
+						<div className="Svision-testimonial-quote">
 							<img src={QuoteImg} alt="QuoteImg" />
 						</div>
-						<div className="aximo-testimonial-data">
+						<div className="Svision-testimonial-data">
 							<p>
 								"Working with Mthemeus has been a game-changer for our company. Their tailored solutions
 								& hands-on approach have not only boosted our efficiency but have also opened up new
 								avenues for growth. They are an invaluable partner in our journey to success."
 							</p>
 						</div>
-						<div className="aximo-testimonial-author">
-							<div className="aximo-testimonial-author-thumb">
+						<div className="Svision-testimonial-author">
+							<div className="Svision-testimonial-author-thumb">
 								<img src={Thumb2Img} alt="Thumb2Img" />
 							</div>
-							<div className="aximo-testimonial-author-data">
+							<div className="Svision-testimonial-author-data">
 								<span>Andrew Smith </span>
 								<p>Businessman</p>
 							</div>

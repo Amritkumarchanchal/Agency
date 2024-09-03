@@ -5,20 +5,20 @@ import Thumb4Img from "../../../assets/images/v2/h-thumb4.png";
 import Thumb5Img from "../../../assets/images/v2/h-thumb5.png";
 function HeroThumbs() {
 	return (
-		<div className="aximo-hero-thumb-wrap">
-			<div className="aximo-hero-thumb-item">
+		<div className="Svision-hero-thumb-wrap">
+			<div className="Svision-hero-thumb-item">
 				<img src={Thumb1Img} alt="Thumb images" />
 			</div>
-			<div className="aximo-hero-thumb-item">
+			<div className="Svision-hero-thumb-item">
 				<img src={Thumb2Img} alt="Thumb images" />
 			</div>
-			<div className="aximo-hero-thumb-item">
+			<div className="Svision-hero-thumb-item">
 				<img src={Thumb3Img} alt="Thumb images" />
 			</div>
-			<div className="aximo-hero-thumb-item">
+			<div className="Svision-hero-thumb-item">
 				<img src={Thumb4Img} alt="Thumb images" />
 			</div>
-			<div className="aximo-hero-thumb-item">
+			<div className="Svision-hero-thumb-item">
 				<img src={Thumb5Img} alt="Thumb images" />
 			</div>
 		</div>

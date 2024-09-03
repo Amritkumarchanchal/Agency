@@ -25,14 +25,14 @@ const portfolioListData = [
 ];
 function PortfolioList() {
 	return (
-		<div className="aximo-project-one-column">
+		<div className="Svision-project-one-column">
 			<div className="container">
-				<div className="aximo-section-title center">
+				<div className="Svision-section-title center">
 					<h2>
 						Have a wide range of
-						<span className="aximo-title-animation">
+						<span className="Svision-title-animation">
 							creative projects
-							<span className="aximo-title-icon">
+							<span className="Svision-title-icon">
 								<img src={Star2Img} alt="star" />
 							</span>
 						</span>

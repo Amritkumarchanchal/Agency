@@ -21,10 +21,10 @@ const blogsData = [
 ];
 function Blogs() {
 	return (
-		<div className="aximo-blog-section aximo-section-padding position-relative">
+		<div className="Svision-blog-section Svision-section-padding position-relative">
 			<div className="container">
-				<div className="aximo-section-title center arimo-font">
-					<span className="aximo-subtitle">Read our blog</span>
+				<div className="Svision-section-title center arimo-font">
+					<span className="Svision-subtitle">Read our blog</span>
 					<h2>We're passionate about knowledge sharing</h2>
 				</div>
 				<div className="row">
@@ -34,7 +34,7 @@ function Blogs() {
 				</div>
 			</div>
 
-			<div className="aximo-v4-shape3">
+			<div className="Svision-v4-shape3">
 				<img src={Shape5Img} alt="Shape5Img" />
 			</div>
 		</div>

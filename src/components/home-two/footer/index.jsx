@@ -4,12 +4,12 @@ import LogoDarkImg from "../../../assets/images/logo/logo-dark.svg";
 import { Link } from "react-router-dom";
 function Footer() {
 	return (
-		<footer className="aximo-footer-section2" style={{ backgroundImage: `url(${FooterBg})` }}>
+		<footer className="Svision-footer-section2" style={{ backgroundImage: `url(${FooterBg})` }}>
 			<div className="container">
-				<div className="aximo-footer-top aximo-section-padding">
+				<div className="Svision-footer-top Svision-section-padding">
 					<div className="row">
 						<div className="col-xl-4 col-lg-12">
-							<div className="aximo-footer-textarea">
+							<div className="Svision-footer-textarea">
 								<Link to="/">
 									<img src={LogoDarkImg} alt="logo" />
 								</Link>
@@ -20,8 +20,8 @@ function Footer() {
 							</div>
 						</div>
 						<div className="col-xl-3 col-md-4">
-							<div className="aximo-footer-menu extar-margin">
-								<div className="aximo-footer-title">
+							<div className="Svision-footer-menu extar-margin">
+								<div className="Svision-footer-title">
 									<p>Special Links</p>
 								</div>
 								<ul>
@@ -44,8 +44,8 @@ function Footer() {
 							</div>
 						</div>
 						<div className="col-xl-2 col-md-4">
-							<div className="aximo-footer-menu">
-								<div className="aximo-footer-title">
+							<div className="Svision-footer-menu">
+								<div className="Svision-footer-title">
 									<p>Special Links</p>
 								</div>
 								<ul>
@@ -68,22 +68,22 @@ function Footer() {
 							</div>
 						</div>
 						<div className="col-xl-3 col-md-4">
-							<div className="aximo-subscription">
-								<div className="aximo-footer-title">
+							<div className="Svision-subscription">
+								<div className="Svision-footer-title">
 									<p>Subscribe Links</p>
 								</div>
 								<form action="#">
 									<input type="email" placeholder="Email Address" />
-									<button id="aximo-subscription-btn" type="submit">
-										<span className="aximo-label-up">Subscribe</span>
-										<span className="aximo-label-up">Subscribe</span>
+									<button id="Svision-subscription-btn" type="submit">
+										<span className="Svision-label-up">Subscribe</span>
+										<span className="Svision-label-up">Subscribe</span>
 									</button>
 								</form>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div className="aximo-footer-bottom two">
+				<div className="Svision-footer-bottom two">
 					<div className="row">
 						<FooterBottom />
 					</div>

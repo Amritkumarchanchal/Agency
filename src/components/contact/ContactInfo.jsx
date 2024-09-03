@@ -4,13 +4,13 @@ import MapImg from "../../assets/images/icon/map.svg";
 import Star2Img from "../../assets/images/v1/star2.png";
 function ContactInfo() {
 	return (
-		<div className="aximo-contact-info-section">
+		<div className="Svision-contact-info-section">
 			<div className="container">
-				<div className="aximo-contact-info-title">
+				<div className="Svision-contact-info-title">
 					<h2>
-						<span className="aximo-title-animation">
+						<span className="Svision-title-animation">
 							Contact Information
-							<span className="aximo-title-icon">
+							<span className="Svision-title-icon">
 								<img src={Star2Img} alt="Star" />
 							</span>
 						</span>
@@ -19,11 +19,11 @@ function ContactInfo() {
 				<div className="row">
 					<div className="col-xl-4 col-md-6">
 						<a href="">
-							<div className="aximo-contact-info-box">
-								<div className="aximo-contact-info-icon">
+							<div className="Svision-contact-info-box">
+								<div className="Svision-contact-info-icon">
 									<img src={Call2Img} alt="Call Img" />
 								</div>
-								<div className="aximo-contact-info-data">
+								<div className="Svision-contact-info-data">
 									<span>Call us</span>
 									<p>+088-234-6532-789</p>
 									<p>+088-456-3217-005</p>
@@ -33,11 +33,11 @@ function ContactInfo() {
 					</div>
 					<div className="col-xl-4 col-md-6">
 						<a href="">
-							<div className="aximo-contact-info-box">
-								<div className="aximo-contact-info-icon">
+							<div className="Svision-contact-info-box">
+								<div className="Svision-contact-info-icon">
 									<img src={EmailImg} alt="Email" />
 								</div>
-								<div className="aximo-contact-info-data">
+								<div className="Svision-contact-info-data">
 									<span>Call us</span>
 									<p>example@gmail.com</p>
 									<p>example@gmail.com</p>
@@ -46,11 +46,11 @@ function ContactInfo() {
 						</a>
 					</div>
 					<div className="col-xl-4 col-md-6">
-						<div className="aximo-contact-info-box">
-							<div className="aximo-contact-info-icon">
+						<div className="Svision-contact-info-box">
+							<div className="Svision-contact-info-icon">
 								<img src={MapImg} alt="Map" />
 							</div>
-							<div className="aximo-contact-info-data">
+							<div className="Svision-contact-info-data">
 								<span>Office address</span>
 								<p>4132 Thornridge City, New York.</p>
 							</div>

@@ -12,7 +12,7 @@ import Video from "../../components/home-two/video";
 function HomeTwo() {
 	return (
 		<>
-			<div className="aximo-all-section bg-light2">
+			<div className="Svision-all-section bg-light2">
 				<Hero />
 				<BrandLogo />
 				<Features />

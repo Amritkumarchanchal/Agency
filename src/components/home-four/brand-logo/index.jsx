@@ -122,16 +122,16 @@ const swiperSettings = {
 };
 function BrandLogo() {
 	return (
-		<div className="aximo-brandlogo-section2 extra-side-margin">
-			<div className="aximo-brandlogo-title">
+		<div className="Svision-brandlogo-section2 extra-side-margin">
+			<div className="Svision-brandlogo-title">
 				<p>We help hundreds of companies to grow</p>
 			</div>
-			<div className="swiper aximo-auto-slider">
+			<div className="swiper Svision-auto-slider">
 				{
 					<Swiper {...swiperSettings}>
 						{sliderData.map((item) => (
 							<SwiperSlide key={item.id}>
-								<div className="aximo-brandlogo-item">
+								<div className="Svision-brandlogo-item">
 									<img src={item.img} alt="brand logo" />
 								</div>
 							</SwiperSlide>

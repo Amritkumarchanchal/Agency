@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 import Shape1Img from "../../../assets/images/v5/shape1.png";
 function Hero() {
 	return (
-		<div className="aximo-hero-section5 green-bg">
+		<div className="Svision-hero-section5 green-bg">
 			<div className="container">
-				<div className="aximo-hero-content5">
+				<div className="Svision-hero-content5">
 					<h1>
 						Increase your brand awareness
-						<span className="aximo-hero-shape-title">
+						<span className="Svision-hero-shape-title">
 							digitally
-							<img className="aximo-hero-wave-shape" src={Shape1Img} alt="Shape" />
+							<img className="Svision-hero-wave-shape" src={Shape1Img} alt="Shape" />
 						</span>
 					</h1>
 					<p>
@@ -17,14 +17,14 @@ function Hero() {
 						advertising-related services. We help businesses and individuals promote your product, service,
 						or brand through various digital channels.
 					</p>
-					<div className="aximo-hero-btn-wrap center">
-						<Link className="aximo-default-btn pill corn-btn" to="/contact-us">
-							<span className="aximo-label-up">Let's Talk</span>
-							<span className="aximo-label-up">Let's Talk</span>
+					<div className="Svision-hero-btn-wrap center">
+						<Link className="Svision-default-btn pill corn-btn" to="/contact-us">
+							<span className="Svision-label-up">Let's Talk</span>
+							<span className="Svision-label-up">Let's Talk</span>
 						</Link>
-						<Link className="aximo-default-btn aximo-default-btn-outline pill outline-white" to="/service">
-							<span className="aximo-label-up">Explore Our Services</span>
-							<span className="aximo-label-up">Explore Our Services</span>
+						<Link className="Svision-default-btn Svision-default-btn-outline pill outline-white" to="/service">
+							<span className="Svision-label-up">Explore Our Services</span>
+							<span className="Svision-label-up">Explore Our Services</span>
 						</Link>
 					</div>
 				</div>

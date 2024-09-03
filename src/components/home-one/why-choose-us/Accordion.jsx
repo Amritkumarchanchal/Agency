@@ -1,6 +1,6 @@
 function Accordion() {
 	return (
-		<div className="accordion aximo-accordion-wrap" id="aximo-accordion">
+		<div className="accordion Svision-accordion-wrap" id="Svision-accordion">
 			<div className="accordion-item">
 				<h3 className="accordion-header">
 					<button
@@ -12,7 +12,7 @@ function Accordion() {
 						01/ Project idea
 					</button>
 				</h3>
-				<div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#aximo-accordion">
+				<div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#Svision-accordion">
 					<div className="accordion-body">
 						The process starts with a detailed discussion with the client to understand their idea & goals.
 					</div>
@@ -29,7 +29,7 @@ function Accordion() {
 						02/ Brainstorming
 					</button>
 				</h3>
-				<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
+				<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#Svision-accordion">
 					<div className="accordion-body">
 						rainstorming is a group creativity technique in which members attempt to find a conclusion.
 					</div>
@@ -46,7 +46,7 @@ function Accordion() {
 						03/ Launch
 					</button>
 				</h3>
-				<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
+				<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#Svision-accordion">
 					<div className="accordion-body">
 						The completed design assets or final product are delivered with necessary documentation.
 					</div>

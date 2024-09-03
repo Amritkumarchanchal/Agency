@@ -2,7 +2,7 @@ function FooterBottom() {
 	return (
 		<>
 			<div className="col-lg-6 order-lg-2">
-				<div className="aximo-social-icon2 right">
+				<div className="Svision-social-icon2 right">
 					<ul>
 						<li>
 							<a href="https://twitter.com/" target="_blank">
@@ -28,7 +28,7 @@ function FooterBottom() {
 				</div>
 			</div>
 			<div className="col-lg-6 d-flex align-items-center">
-				<div className="aximo-copywright two">
+				<div className="Svision-copywright two">
 					<p>&copy; Copyright 2024, All Rights Reserved by Mthemeus</p>
 				</div>
 			</div>

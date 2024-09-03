@@ -38,9 +38,9 @@ const servicesData = [
 ];
 function Services() {
 	return (
-		<div className="aximo-marketing-services-section extra-side-margin green-bg aximo-section-padding2">
+		<div className="Svision-marketing-services-section extra-side-margin green-bg Svision-section-padding2">
 			<div className="container">
-				<div className="aximo-section-title center light libre-font">
+				<div className="Svision-section-title center light libre-font">
 					<h2>Exceptional digital marketing services</h2>
 				</div>
 

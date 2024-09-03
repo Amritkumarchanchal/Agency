@@ -68,21 +68,21 @@ const swiperSettings = {
 };
 function Projects() {
 	return (
-		<div className="section dark-bg aximo-section-padding">
+		<div className="section dark-bg Svision-section-padding">
 			<div className="container">
-				<div className="aximo-section-title center light">
+				<div className="Svision-section-title center light">
 					<h2>
 						Have a wide range of
-						<span className="aximo-title-animation">
+						<span className="Svision-title-animation">
 							creative projects
-							<span className="aximo-title-icon">
+							<span className="Svision-title-icon">
 								<img src={Star2Img} alt="Star2Img" />
 							</span>
 						</span>
 					</h2>
 				</div>
 			</div>
-			<div className="swiper aximo-project-slider">
+			<div className="swiper Svision-project-slider">
 				<Swiper {...swiperSettings}>
 					{projectsData.map((project) => (
 						<SwiperSlide key={project.id}>

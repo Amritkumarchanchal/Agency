@@ -8,13 +8,13 @@ function Footer() {
 	return (
 		<footer className="section dark-bg2 position-relative">
 			<div className="container">
-				<div className="aximo-footer-extra-top">
+				<div className="Svision-footer-extra-top">
 					<FooterContact />
 				</div>
-				<div className="aximo-footer-top6">
+				<div className="Svision-footer-top6">
 					<div className="row">
 						<div className="col-xl-4 col-lg-12">
-							<div className="aximo-footer-textarea light-two">
+							<div className="Svision-footer-textarea light-two">
 								<Link to="/">
 									<img src={LogoWhiteImg} alt="logo" />
 								</Link>
@@ -26,8 +26,8 @@ function Footer() {
 							</div>
 						</div>
 						<div className="col-xl-3 col-md-4">
-							<div className="aximo-footer-menu extar-margin light-two">
-								<div className="aximo-footer-title light-two">
+							<div className="Svision-footer-menu extar-margin light-two">
+								<div className="Svision-footer-title light-two">
 									<p>Special Links</p>
 								</div>
 								<ul>
@@ -50,8 +50,8 @@ function Footer() {
 							</div>
 						</div>
 						<div className="col-xl-3 col-md-4">
-							<div className="aximo-footer-menu light-two">
-								<div className="aximo-footer-title light-two">
+							<div className="Svision-footer-menu light-two">
+								<div className="Svision-footer-title light-two">
 									<p>Utility pages</p>
 								</div>
 								<ul>
@@ -79,7 +79,7 @@ function Footer() {
 					</div>
 				</div>
 			</div>
-			<div className="aximo-footer-shapev6">
+			<div className="Svision-footer-shapev6">
 				<img src={ShapeImg} alt="shape" />
 			</div>
 		</footer>

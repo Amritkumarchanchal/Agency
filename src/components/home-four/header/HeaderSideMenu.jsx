@@ -2,10 +2,10 @@ import Logo from "../../../assets/images/logo/logo-white.svg";
 import InstagramThumb from "../../../assets/images/v4/instagram-thumb3.png";
 function HeaderSideMenu({ showSideMenu, setShowSideMenu }) {
 	return (
-		<div className="aximo-sidemenu-wraper">
-			<div className={`aximo-sidemenu-column ${showSideMenu === true ? "active" : ""}`}>
-				<div className="aximo-sidemenu-body">
-					<div className="aximo-sidemenu-logo">
+		<div className="Svision-sidemenu-wraper">
+			<div className={`Svision-sidemenu-column ${showSideMenu === true ? "active" : ""}`}>
+				<div className="Svision-sidemenu-body">
+					<div className="Svision-sidemenu-logo">
 						<a href="">
 							<img src={Logo} alt="Logo" />
 						</a>
@@ -15,11 +15,11 @@ function HeaderSideMenu({ showSideMenu, setShowSideMenu }) {
 						passion for problem-solving, we offer top-level consulting service tailored to your unique
 						needs.
 					</p>
-					<div className="aximo-sidemenu-thumb">
+					<div className="Svision-sidemenu-thumb">
 						<img src={InstagramThumb} alt="InstagramThumb" />
 					</div>
-					<div className="aximo-info-wrap">
-						<div className="aximo-info">
+					<div className="Svision-info-wrap">
+						<div className="Svision-info">
 							<ul>
 								<li>Give us a call:</li>
 								<li>
@@ -27,7 +27,7 @@ function HeaderSideMenu({ showSideMenu, setShowSideMenu }) {
 								</li>
 							</ul>
 						</div>
-						<div className="aximo-info">
+						<div className="Svision-info">
 							<ul>
 								<li>Send us an email:</li>
 								<li>
@@ -36,7 +36,7 @@ function HeaderSideMenu({ showSideMenu, setShowSideMenu }) {
 							</ul>
 						</div>
 					</div>
-					<div className="aximo-social-icon aximo-social-icon3">
+					<div className="Svision-social-icon Svision-social-icon3">
 						<ul>
 							<li>
 								<a href="">
@@ -60,11 +60,11 @@ function HeaderSideMenu({ showSideMenu, setShowSideMenu }) {
 							</li>
 						</ul>
 					</div>
-					<div className="aximo-copywright4 light">
+					<div className="Svision-copywright4 light">
 						<p>© Copyright 2024, All Rights Reserved by Mthemeus</p>
 					</div>
 				</div>
-				<span className="aximo-sidemenu-close" onClick={() => setShowSideMenu(!showSideMenu)}>
+				<span className="Svision-sidemenu-close" onClick={() => setShowSideMenu(!showSideMenu)}>
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 						<path
 							d="M6 18L18 6M6 6L18 18"

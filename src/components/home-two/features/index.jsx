@@ -28,11 +28,11 @@ const featuresData = [
 ];
 function Features() {
 	return (
-		<div className="section bg-light2 aximo-section-padding3 position-relative">
+		<div className="section bg-light2 Svision-section-padding3 position-relative">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-8">
-						<div className="aximo-section-title clash-grotesk">
+						<div className="Svision-section-title clash-grotesk">
 							<h2>Features that set us apart from others</h2>
 						</div>
 					</div>
@@ -43,7 +43,7 @@ function Features() {
 					))}
 				</div>
 			</div>
-			<div className="aximo-shape">
+			<div className="Svision-shape">
 				<img src={Shape2Img} alt="Shape2Img" />
 			</div>
 		</div>

@@ -1,6 +1,6 @@
 function FooterCopyright() {
 	return (
-		<div className="aximo-copywright">
+		<div className="Svision-copywright">
 			<p>&copy; Copyright 2024, All Rights Reserved by Mthemeus</p>
 		</div>
 	);

@@ -3,19 +3,19 @@ import Star2Img from "../../assets/images/v1/star2.png";
 import WorkingApproach from "./WorkingApproach";
 function ServiceDetails() {
 	return (
-		<div className="section aximo-section-padding2 pb-0">
+		<div className="section Svision-section-padding2 pb-0">
 			<div className="container">
-				<div className="aximo-service-details-wrap">
-					<div className="aximo-service-details-thumb">
+				<div className="Svision-service-details-wrap">
+					<div className="Svision-service-details-thumb">
 						<img src={SingleImg} alt="Single img" />
 					</div>
 					<div className="row">
 						<div className="col-lg-8">
-							<div className="aximo-default-content">
+							<div className="Svision-default-content">
 								<h2>
-									<span className="aximo-title-animation">
+									<span className="Svision-title-animation">
 										UI/UX for modern
-										<span className="aximo-title-icon">
+										<span className="Svision-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
@@ -34,7 +34,7 @@ function ServiceDetails() {
 					</div>
 					<div className="row">
 						<div className="col-lg-6">
-							<div className="aximo-user-interface">
+							<div className="Svision-user-interface">
 								<h3>1/ User Interface (UI):</h3>
 								<ul>
 									<li>
@@ -54,7 +54,7 @@ function ServiceDetails() {
 							</div>
 						</div>
 						<div className="col-lg-6">
-							<div className="aximo-user-interface">
+							<div className="Svision-user-interface">
 								<h3>2/ User Experience (UX):</h3>
 								<ul>
 									<li>
@@ -74,7 +74,7 @@ function ServiceDetails() {
 							</div>
 						</div>
 					</div>
-					<div className="aximo-faq-wrap">
+					<div className="Svision-faq-wrap">
 						<WorkingApproach />
 					</div>
 				</div>

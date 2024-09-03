@@ -11,21 +11,21 @@ function ResetForm() {
 		console.log("Submite Form Data = ", formData);
 	};
 	return (
-		<div className="section aximo-section-padding">
+		<div className="section Svision-section-padding">
 			<div className="container">
-				<div className="aximo-account-title">
+				<div className="Svision-account-title">
 					<h2>
-						<span className="aximo-title-animation">
+						<span className="Svision-title-animation">
 							Reset Password
-							<span className="aximo-title-icon">
+							<span className="Svision-title-icon">
 								<img src={StarImg} alt="star" />
 							</span>
 						</span>
 					</h2>
 				</div>
-				<div className="aximo-account-wrap">
+				<div className="Svision-account-wrap">
 					<form onSubmit={handleSubmit(submitForm)}>
-						<div className="aximo-account-field">
+						<div className="Svision-account-field">
 							<Field label="Enter email address" error={errors.email}>
 								<input
 									{...register("email", { required: "Email is required." })}
@@ -36,7 +36,7 @@ function ResetForm() {
 								/>
 							</Field>
 						</div>
-						<div className="aximo-account-field">
+						<div className="Svision-account-field">
 							<Field label="Enter Password" error={errors.password}>
 								<input
 									{...register("password", {
@@ -53,10 +53,10 @@ function ResetForm() {
 								/>
 							</Field>
 						</div>
-						<button id="aximo-account-btn" type="submit">
+						<button id="Svision-account-btn" type="submit">
 							Reset account
 						</button>
-						<div className="aximo-account-bottom m-0">
+						<div className="Svision-account-bottom m-0">
 							<p>If you didn’t request a password recovery link, please ignore this.</p>
 						</div>
 					</form>

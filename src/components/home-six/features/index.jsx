@@ -25,15 +25,15 @@ const featuresData = [
 ];
 function Features() {
 	return (
-		<div className="section aximo-section-padding2">
+		<div className="section Svision-section-padding2">
 			<div className="container">
 				<div className="row">
 					{featuresData.map((feature) => (
 						<FeatureCard key={feature.id} feature={feature} />
 					))}
 				</div>
-				<div className="aximo-bottom-center">
-					<Link className="aximo-default-btn green-btn pill" to="/service">
+				<div className="Svision-bottom-center">
+					<Link className="Svision-default-btn green-btn pill" to="/service">
 						<span>Explore More Features</span>{" "}
 					</Link>
 				</div>

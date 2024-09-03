@@ -4,16 +4,16 @@ import AboutCounter from "./AboutCounter";
 
 function About() {
 	return (
-		<div className="section aximo-section-padding">
-			<div id="aximo-counter"></div>
+		<div className="section Svision-section-padding">
+			<div id="Svision-counter"></div>
 			<div className="container">
-				<div className="aximo-section-title">
+				<div className="Svision-section-title">
 					<div className="row">
 						<div className="col-lg-7">
 							<h2>
-								<span className="aximo-title-animation">
+								<span className="Svision-title-animation">
 									We make your
-									<span className="aximo-title-icon">
+									<span className="Svision-title-icon">
 										<img src={Star2Img} alt="Star2Img" />
 									</span>
 								</span>{" "}

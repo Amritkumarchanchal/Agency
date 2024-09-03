@@ -80,14 +80,14 @@ const swiperSettings = {
 };
 function Instagrams() {
 	return (
-		<div className="aximo-instagram-section">
-			<div className="swiper aximo-instagram-slider">
+		<div className="Svision-instagram-section">
+			<div className="swiper Svision-instagram-slider">
 				<Swiper {...swiperSettings}>
 					{instagramsData.map((item) => (
 						<SwiperSlide key={item.id}>
-							<div className="aximo-instagram-thumb">
+							<div className="Svision-instagram-thumb">
 								<img src={item.img} alt={item.handle} />
-								<div className="aximo-instagram-data">
+								<div className="Svision-instagram-data">
 									<a href="https://www.instagram.com/">
 										<i className="icon-instagram"></i>
 									</a>

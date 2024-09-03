@@ -1,9 +1,9 @@
 function FooterSubscription() {
 	return (
-		<div className="aximo-subscription2">
+		<div className="Svision-subscription2">
 			<form action="#">
 				<input type="email" placeholder="Email Address" />
-				<button id="aximo-subscription-btn2" type="submit">
+				<button id="Svision-subscription-btn2" type="submit">
 					Subscribe now
 				</button>
 			</form>

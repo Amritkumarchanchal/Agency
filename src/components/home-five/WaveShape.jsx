@@ -1,7 +1,7 @@
 import Shape3Img from "../../assets/images/v5/shape3.png";
 function WaveShape() {
 	return (
-		<div className="aximo-wave-shape extra-side-margin">
+		<div className="Svision-wave-shape extra-side-margin">
 			<img src={Shape3Img} alt="wave" />
 		</div>
 	);

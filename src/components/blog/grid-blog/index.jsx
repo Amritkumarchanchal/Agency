@@ -56,7 +56,7 @@ const gridBlogData = [
 ];
 function GridBlog() {
 	return (
-		<div className="section aximo-section-padding2">
+		<div className="section Svision-section-padding2">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-8">

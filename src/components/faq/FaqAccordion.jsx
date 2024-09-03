@@ -1,13 +1,13 @@
 import Star2Img from "../../assets/images/v1/star2.png";
 function FaqAccordion() {
 	return (
-		<div className="section aximo-section-padding3">
+		<div className="section Svision-section-padding3">
 			<div className="container">
-				<div className="aximo-section-title center">
+				<div className="Svision-section-title center">
 					<h2>
-						<span className="aximo-title-animation">
+						<span className="Svision-title-animation">
 							These FAQs help
-							<span className="aximo-title-icon">
+							<span className="Svision-title-icon">
 								<img src={Star2Img} alt="Star" />
 							</span>
 						</span>
@@ -15,7 +15,7 @@ function FaqAccordion() {
 					</h2>
 				</div>
 
-				<div className="accordion aximo-accordion-wrap" id="aximo-accordion">
+				<div className="accordion Svision-accordion-wrap" id="Svision-accordion">
 					<div className="accordion-item">
 						<h3 className="accordion-header">
 							<button
@@ -30,7 +30,7 @@ function FaqAccordion() {
 						<div
 							id="collapseOne"
 							className="accordion-collapse collapse show"
-							data-bs-parent="#aximo-accordion"
+							data-bs-parent="#Svision-accordion"
 						>
 							<div className="accordion-body">
 								Clients often seek to understand the range of design services an agency provides, such
@@ -50,7 +50,7 @@ function FaqAccordion() {
 								What industries or types of clients do you typically work with?
 							</button>
 						</h3>
-						<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
+						<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#Svision-accordion">
 							<div className="accordion-body">
 								This question helps potential clients determine if the agency has experience in their
 								specific industry or with similar projects. Our agency stands out due to our creative
@@ -73,7 +73,7 @@ function FaqAccordion() {
 						<div
 							id="collapseThree"
 							className="accordion-collapse collapse"
-							data-bs-parent="#aximo-accordion"
+							data-bs-parent="#Svision-accordion"
 						>
 							<div className="accordion-body">
 								Yes, we're proud to showcase a portfolio of our previous projects. You can find examples
@@ -97,7 +97,7 @@ function FaqAccordion() {
 						<div
 							id="collapseFour"
 							className="accordion-collapse collapse"
-							data-bs-parent="#aximo-accordion"
+							data-bs-parent="#Svision-accordion"
 						>
 							<div className="accordion-body">
 								Explaining the design agency's process from initial concept to final delivery helps
@@ -119,7 +119,7 @@ function FaqAccordion() {
 						<div
 							id="collapseFive"
 							className="accordion-collapse collapse"
-							data-bs-parent="#aximo-accordion"
+							data-bs-parent="#Svision-accordion"
 						>
 							<div className="accordion-body">
 								Clients are interested in knowing how the agency manages feedback and makes revisions to
@@ -139,7 +139,7 @@ function FaqAccordion() {
 								Do you offer ongoing support after project completion?
 							</button>
 						</h3>
-						<div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
+						<div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#Svision-accordion">
 							<div className="accordion-body">
 								Yes, we offer ongoing support, maintenance, and updates as needed, ensuring that your
 								design assets and projects remain up to date and functional. Some clients may have

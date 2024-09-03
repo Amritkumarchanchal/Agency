@@ -73,7 +73,7 @@ function Projects() {
 	const wrappers = useRef(null);
 
 	useEffect(() => {
-		wrappers.current = document.querySelectorAll(".aximo-image-resizing-item");
+		wrappers.current = document.querySelectorAll(".Svision-image-resizing-item");
 		const wrapArray = Array.from(wrappers.current);
 
 		wrapArray.forEach((item) => {
@@ -96,9 +96,9 @@ function Projects() {
 		});
 	}, []);
 	return (
-		<div className="section aximo-section-padding4">
+		<div className="section Svision-section-padding4">
 			<div className="container">
-				<div className="aximo-section-title center bricolage-font">
+				<div className="Svision-section-title center bricolage-font">
 					<h2>Take a look at our most recent work</h2>
 				</div>
 			</div>

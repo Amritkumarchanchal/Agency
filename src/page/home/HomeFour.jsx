@@ -11,7 +11,7 @@ import WhyChooseUs from "../../components/home-four/why-choose-us";
 
 function HomeFour() {
 	return (
-		<div className="aximo-all-section bg-light4">
+		<div className="Svision-all-section bg-light4">
 			<Hero />
 			<MissionVision />
 			<BrandLogo />

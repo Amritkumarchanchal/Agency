@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 function TeamCard({ team: { name, designation, img } }) {
 	return (
 		<div className="col-xl-3 col-md-6">
-			<div className="aximo-team-wrap">
-				<div className="aximo-team-thumb">
+			<div className="Svision-team-wrap">
+				<div className="Svision-team-thumb">
 					<img src={img} alt={name} />
-					<div className="aximo-social-icon team-social">
+					<div className="Svision-social-icon team-social">
 						<ul>
 							<li>
 								<a href="">
@@ -30,7 +30,7 @@ function TeamCard({ team: { name, designation, img } }) {
 						</ul>
 					</div>
 				</div>
-				<div className="aximo-team-data">
+				<div className="Svision-team-data">
 					<Link to="/single-team">
 						<h3>{name}</h3>
 					</Link>

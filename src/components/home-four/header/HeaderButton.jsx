@@ -3,7 +3,7 @@ function HeaderButton({ setShowSideMenu, showSideMenu }) {
 	return (
 		<div className="header-btn header-btn-l1 ms-auto d-none d-lg-inline-flex">
 			<button
-				className="aximo-default-btn aximo-header-btn outline-btn pill barger-menu"
+				className="Svision-default-btn Svision-header-btn outline-btn pill barger-menu"
 				onClick={() => setShowSideMenu(!showSideMenu)}
 			>
 				<img src={BargerMenuImg} alt="BargerMenuImg" />

@@ -1,8 +1,8 @@
 function FooterSocial() {
 	return (
-		<div className="aximo-footer-title light-two">
+		<div className="Svision-footer-title light-two">
 			<p>Socials Links</p>
-			<div className="aximo-social-icon5">
+			<div className="Svision-social-icon5">
 				<ul>
 					<li>
 						<a href="https://facebook.com" target="_blank">

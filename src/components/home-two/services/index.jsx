@@ -46,16 +46,16 @@ const servicesData = [
 
 function Services() {
 	return (
-		<div className="section aximo-section-padding position-relative">
+		<div className="section Svision-section-padding position-relative">
 			<div className="container">
-				<div className="aximo-section-title center clash-grotesk">
+				<div className="Svision-section-title center clash-grotesk">
 					<h2>Services to increase chances of success</h2>
 				</div>
 			</div>
-			<div className="aximo-increase-shape">
+			<div className="Svision-increase-shape">
 				<img src={StarImg} alt="StarImg" />
 			</div>
-			<div className="aximo-service-increase-wrap">
+			<div className="Svision-service-increase-wrap">
 				{servicesData.map((service) => (
 					<ServiceCard key={service.id} service={service} />
 				))}

@@ -20,43 +20,43 @@ const projectResolveSteps = [
 ];
 function PortfolioDetails() {
 	return (
-		<div className="aximo-project-single-section">
+		<div className="Svision-project-single-section">
 			<div className="container">
-				<div className="aximo-project-single-thumb">
+				<div className="Svision-project-single-thumb">
 					<img src={Single1Img} alt="Single" />
 				</div>
-				<div className="aximo-project-info-wrap">
-					<div className="aximo-project-info">
+				<div className="Svision-project-info-wrap">
+					<div className="Svision-project-info">
 						<h3>Client:</h3>
 						<p>Alfado Company,UK</p>
 					</div>
-					<div className="aximo-project-info">
+					<div className="Svision-project-info">
 						<h3>Date:</h3>
 						<p>June</p>
 					</div>
-					<div className="aximo-project-info">
+					<div className="Svision-project-info">
 						<h3>Duration:</h3>
 						<p>Two Months</p>
 					</div>
-					<div className="aximo-project-info">
+					<div className="Svision-project-info">
 						<h3>Cost:</h3>
 						<p>50k USD</p>
 					</div>
 				</div>
-				<div className="aximo-project-single-wrap">
+				<div className="Svision-project-single-wrap">
 					<div className="row">
 						<div className="col-lg-4 order-lg-2">
-							<div className="aximo-project-single-thumb2 ">
+							<div className="Svision-project-single-thumb2 ">
 								<img src={Single2Img} alt="Single 2" />
 							</div>
 						</div>
 						<div className="col-lg-8">
-							<div className="aximo-default-content m-right-gap">
+							<div className="Svision-default-content m-right-gap">
 								<h2>
 									How we initiate and
-									<span className="aximo-title-animation">
+									<span className="Svision-title-animation">
 										resolve the project
-										<span className="aximo-title-icon">
+										<span className="Svision-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
@@ -65,9 +65,9 @@ function PortfolioDetails() {
 									The project began when a leading technology identified a market need for an
 									innovative and energy-efficient smart home thermostat.
 								</p>
-								<div className="aximo-resolve-project-wrap">
+								<div className="Svision-resolve-project-wrap">
 									{projectResolveSteps.map((item, index) => (
-										<div key={item.id} className="aximo-resolve-project-item">
+										<div key={item.id} className="Svision-resolve-project-item">
 											<h3>
 												{index + 1}. {item.title}:
 											</h3>

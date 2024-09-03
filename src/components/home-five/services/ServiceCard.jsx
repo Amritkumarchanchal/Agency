@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 function ServiceCard({ service: { title, description, img } }) {
 	return (
-		<div className="aximo-marketing-services-item">
-			<div className="aximo-marketing-services-icon">
+		<div className="Svision-marketing-services-item">
+			<div className="Svision-marketing-services-icon">
 				<img src={img} alt="icon" />
 				<h3>{title}:</h3>
 			</div>
-			<div className="aximo-marketing-services-data">
+			<div className="Svision-marketing-services-data">
 				<p>{description}</p>
 			</div>
-			<div className="aximo-marketing-services-btn">
+			<div className="Svision-marketing-services-btn">
 				<Link
-					className="aximo-default-btn aximo-default-btn-outline pill outline-white marketing-services-btn"
+					className="Svision-default-btn Svision-default-btn-outline pill outline-white marketing-services-btn"
 					to="/single-service"
 				>
 					Choose Service

@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 function BlogCard({ blog: { title, category, date, img } }) {
 	return (
 		<div className="col-lg-6">
-			<div className="aximo-blog-wrap">
-				<div className="aximo-blog-thumb">
+			<div className="Svision-blog-wrap">
+				<div className="Svision-blog-thumb">
 					<Link to="/single-blog">
 						<img src={img} alt={title} />
 					</Link>
 				</div>
-				<div className="aximo-blog-content">
-					<div className="aximo-blog-meta">
+				<div className="Svision-blog-content">
+					<div className="Svision-blog-meta">
 						<ul>
 							<li>
 								<a href="">{category}</a>
@@ -20,7 +20,7 @@ function BlogCard({ blog: { title, category, date, img } }) {
 					<Link to="/single-blog">
 						<h3>{title}</h3>
 					</Link>
-					<Link className="aximo-blog-btn" to="/single-blog">
+					<Link className="Svision-blog-btn" to="/single-blog">
 						Read more
 						<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path

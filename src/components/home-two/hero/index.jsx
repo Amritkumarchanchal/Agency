@@ -6,13 +6,13 @@ import ShapeStarImg from "../../../assets/images/v2/shape-star.png";
 
 function Hero() {
 	return (
-		<div className="aximo-hero-section2">
+		<div className="Svision-hero-section2">
 			<div className="container position-relative">
 				<HeroContent />
-				<div className="aximo-hero-shape1">
+				<div className="Svision-hero-shape1">
 					<img src={Shape1Img} alt="Shape" />
 				</div>
-				<div className="aximo-hero-shape2">
+				<div className="Svision-hero-shape2">
 					<img src={ShapeStarImg} alt="ShapeStarImg" />
 				</div>
 			</div>

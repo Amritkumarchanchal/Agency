@@ -6,16 +6,16 @@ function FooterTop() {
 			<div className="col-lg-7">
 				<h2>
 					Let your brand rise to new heights
-					<span className="aximo-title-shape">
+					<span className="Svision-title-shape">
 						<img src={TitleShapImg} alt="title shape" />
 					</span>
 				</h2>
 			</div>
 			<div className="col-lg-5 d-flex align-items-center">
-				<div className="aximo-title-btn">
-					<Link className="aximo-default-btn blue-btn2" to="/contact-us">
-						<span className="aximo-label-up">Explore Our Plans</span>
-						<span className="aximo-label-up">Explore Our Plans</span>
+				<div className="Svision-title-btn">
+					<Link className="Svision-default-btn blue-btn2" to="/contact-us">
+						<span className="Svision-label-up">Explore Our Plans</span>
+						<span className="Svision-label-up">Explore Our Plans</span>
 					</Link>
 				</div>
 			</div>

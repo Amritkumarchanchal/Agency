@@ -1,8 +1,8 @@
 import StarImg from "../../../assets/images/v2/star.svg";
 function TestimonialCard({ testimonial: { rating, content, author, designation, img } }) {
 	return (
-		<div className="aximo-testimonial-wrap aximo-testimonial-wrap2">
-			<div className="aximo-testimonial-rating">
+		<div className="Svision-testimonial-wrap Svision-testimonial-wrap2">
+			<div className="Svision-testimonial-rating">
 				<ul>
 					{[...Array(rating)].map(() => (
 						<li key={crypto.randomUUID()}>
@@ -11,14 +11,14 @@ function TestimonialCard({ testimonial: { rating, content, author, designation, 
 					))}
 				</ul>
 			</div>
-			<div className="aximo-testimonial-data">
+			<div className="Svision-testimonial-data">
 				<p>{`"${content}"`}</p>
 			</div>
-			<div className="aximo-testimonial-author">
-				<div className="aximo-testimonial-author-thumb">
+			<div className="Svision-testimonial-author">
+				<div className="Svision-testimonial-author-thumb">
 					<img src={img} alt="author" />
 				</div>
-				<div className="aximo-testimonial-author-data">
+				<div className="Svision-testimonial-author-data">
 					<p>
 						{author} <span>{designation}</span>
 					</p>

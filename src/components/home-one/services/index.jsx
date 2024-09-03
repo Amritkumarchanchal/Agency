@@ -3,20 +3,20 @@ import ServiceCard from "./ServiceCard";
 
 function Services({ services }) {
 	return (
-		<div className="section aximo-section-padding4">
+		<div className="section Svision-section-padding4">
 			<div className="container">
-				<div className="aximo-section-title center">
+				<div className="Svision-section-title center">
 					<h2>
 						We provide effective
-						<span className="aximo-title-animation">
+						<span className="Svision-title-animation">
 							design solutions
-							<span className="aximo-title-icon">
+							<span className="Svision-title-icon">
 								<img src={Star2Img} alt="Star2Img" />
 							</span>
 						</span>
 					</h2>
 				</div>
-				<div className="aximo-service-wrap">
+				<div className="Svision-service-wrap">
 					<div className="row">
 						{services.map((item) => (
 							<ServiceCard key={item.id} service={item} />

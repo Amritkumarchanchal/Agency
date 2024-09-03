@@ -5,7 +5,7 @@ import VideoBg from "../../../assets/images/v2/video-bg.png";
 function Video() {
 	const [isOpen, setOpen] = useState(false);
 	return (
-		<div className="aximo-video-section extra-side-margin">
+		<div className="Svision-video-section extra-side-margin">
 			<img src={VideoBg} alt="VideoBg" />
 			<ModalVideo
 				channel="youtube"
@@ -15,7 +15,7 @@ function Video() {
 				onClose={() => setOpen(false)}
 			/>
 
-			<button className="aximo-video-popup play-btn-size video-init" onClick={() => setOpen(true)}>
+			<button className="Svision-video-popup play-btn-size video-init" onClick={() => setOpen(true)}>
 				<img src={PlayImg} alt="PlayImg" />
 				<div className="waves wave-1"></div>
 				<div className="waves wave-2"></div>

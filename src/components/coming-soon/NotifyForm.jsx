@@ -12,7 +12,7 @@ function NotifyForm() {
 
 	return (
 		<form onSubmit={handleSubmit(submitForm)}>
-			<div className="aximo-coming-newsletter">
+			<div className="Svision-coming-newsletter">
 				<Field error={errors.email}>
 					<input
 						{...register("email", { required: "Email is required." })}
@@ -23,7 +23,7 @@ function NotifyForm() {
 					/>
 				</Field>
 
-				<button type="submit" id="aximo-notified-btn">
+				<button type="submit" id="Svision-notified-btn">
 					Get Notified
 				</button>
 				<p>We do not share your information with any third party & no spam*</p>

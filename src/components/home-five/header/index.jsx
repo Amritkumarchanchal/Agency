@@ -17,7 +17,7 @@ function Header() {
 	} = useMenu();
 	return (
 		<header
-			className="site-header site-header--menu-center aximo-header-section aximo-header5 green-bg"
+			className="site-header site-header--menu-center Svision-header-section Svision-header5 green-bg"
 			id="sticky-menu"
 		>
 			<div className="container">

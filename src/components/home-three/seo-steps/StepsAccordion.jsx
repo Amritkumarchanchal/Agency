@@ -1,6 +1,6 @@
 function StepsAccordion() {
 	return (
-		<div className="accordion aximo-accordion-wrap3" id="aximo-accordion">
+		<div className="accordion Svision-accordion-wrap3" id="Svision-accordion">
 			<div className="accordion-item">
 				<button
 					className="accordion-button"
@@ -11,7 +11,7 @@ function StepsAccordion() {
 					Keyword Research and On-Page Optimization
 				</button>
 
-				<div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#aximo-accordion">
+				<div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#Svision-accordion">
 					<div className="accordion-body">
 						Start by researching and selecting relevant keywords and phrases that your target audience is
 						likely to use.
@@ -28,7 +28,7 @@ function StepsAccordion() {
 					Off-Page SEO and Link Building
 				</button>
 
-				<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
+				<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#Svision-accordion">
 					<div className="accordion-body">
 						If your business has a physical presence, optimize your website for local search by claiming.
 					</div>
@@ -44,7 +44,7 @@ function StepsAccordion() {
 					Regular Monitoring and Content Creation
 				</button>
 
-				<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
+				<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#Svision-accordion">
 					<div className="accordion-body">
 						Regularly monitor your websites performance using tools like Google Analytics & Google Search
 						Console.

@@ -13,21 +13,21 @@ function SignInForm() {
 		console.log("Submite Form Data = ", formData);
 	};
 	return (
-		<div className="section aximo-section-padding">
+		<div className="section Svision-section-padding">
 			<div className="container">
-				<div className="aximo-account-title">
+				<div className="Svision-account-title">
 					<h2>
-						<span className="aximo-title-animation">
+						<span className="Svision-title-animation">
 							Welcome back
-							<span className="aximo-title-icon">
+							<span className="Svision-title-icon">
 								<img src={StarImg} alt="Star" />
 							</span>
 						</span>
 					</h2>
 				</div>
-				<div className="aximo-account-wrap">
+				<div className="Svision-account-wrap">
 					<form onSubmit={handleSubmit(submitForm)}>
-						<div className="aximo-account-field">
+						<div className="Svision-account-field">
 							<Field label="Enter email address" error={errors.email}>
 								<input
 									{...register("email", { required: "Email is required." })}
@@ -38,7 +38,7 @@ function SignInForm() {
 								/>
 							</Field>
 						</div>
-						<div className="aximo-account-field">
+						<div className="Svision-account-field">
 							<Field label="Enter Password" error={errors.password}>
 								<input
 									{...register("password", {
@@ -55,8 +55,8 @@ function SignInForm() {
 								/>
 							</Field>
 						</div>
-						<div className="aximo-account-checkbox-wrap">
-							<div className="aximo-account-checkbox">
+						<div className="Svision-account-checkbox-wrap">
+							<div className="Svision-account-checkbox">
 								<input type="checkbox" id="check" />
 								<label htmlFor="check">Remember me</label>
 							</div>
@@ -65,21 +65,21 @@ function SignInForm() {
 							</Link>
 						</div>
 
-						<button id="aximo-account-btn" type="submit">
+						<button id="Svision-account-btn" type="submit">
 							Create account
 						</button>
-						<div className="aximo-or">
+						<div className="Svision-or">
 							<p>or</p>
 						</div>
 
-						<a href="https://google.com" target="_blank" className="aximo-connect-login">
+						<a href="https://google.com" target="_blank" className="Svision-connect-login">
 							Sign up with Google
 						</a>
-						<a href="https://fb.com" target="_blank" className="aximo-connect-login">
+						<a href="https://fb.com" target="_blank" className="Svision-connect-login">
 							Sign up with Facebook
 						</a>
 
-						<div className="aximo-account-bottom">
+						<div className="Svision-account-bottom">
 							<p>
 								Not a member yet? <Link to="/sign-up">Sign up here</Link>
 							</p>

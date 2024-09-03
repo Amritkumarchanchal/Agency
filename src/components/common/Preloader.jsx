@@ -17,8 +17,8 @@ export default function Preloader() {
 	});
 	return (
 		showLoader && (
-			<div className={`aximo-preloader-wrap ${isLoded === true ? "loaded" : ""}`}>
-				<div className="aximo-preloader">
+			<div className={`Svision-preloader-wrap ${isLoded === true ? "loaded" : ""}`}>
+				<div className="Svision-preloader">
 					<div></div>
 					<div></div>
 					<div></div>

@@ -2,7 +2,7 @@ function FaqAccordion() {
 	return (
 		<>
 			<div className="col-lg-6">
-				<div className="accordion aximo-accordion-wrap2" id="aximo-accordion-col1">
+				<div className="accordion Svision-accordion-wrap2" id="Svision-accordion-col1">
 					<div className="accordion-item ">
 						<h3 className="accordion-header">
 							<button
@@ -17,7 +17,7 @@ function FaqAccordion() {
 						<div
 							id="collapseOne"
 							className="accordion-collapse collapse show"
-							data-bs-parent="#aximo-accordion-col1"
+							data-bs-parent="#Svision-accordion-col1"
 						>
 							<div className="accordion-body">
 								Our vision is describe your long-term vision or goals. Were committed to explain how
@@ -39,7 +39,7 @@ function FaqAccordion() {
 						<div
 							id="collapseTwo"
 							className="accordion-collapse collapse"
-							data-bs-parent="#aximo-accordion-col1"
+							data-bs-parent="#Svision-accordion-col1"
 						>
 							<div className="accordion-body">
 								Yes, we offer a range of free resources. Check out our resources page for more
@@ -61,7 +61,7 @@ function FaqAccordion() {
 						<div
 							id="collapseThree"
 							className="accordion-collapse collapse"
-							data-bs-parent="#aximo-accordion-col1"
+							data-bs-parent="#Svision-accordion-col1"
 						>
 							<div className="accordion-body">
 								Yes, we have a strong network of investors and can facilitate introductions. Our
@@ -73,7 +73,7 @@ function FaqAccordion() {
 			</div>
 
 			<div className="col-lg-6">
-				<div className="accordion aximo-accordion-wrap2" id="aximo-accordion-col2">
+				<div className="accordion Svision-accordion-wrap2" id="Svision-accordion-col2">
 					<div className="accordion-item ">
 						<h3 className="accordion-header">
 							<button
@@ -88,7 +88,7 @@ function FaqAccordion() {
 						<div
 							id="collapseFour"
 							className="accordion-collapse collapse"
-							data-bs-parent="#aximo-accordion-col2"
+							data-bs-parent="#Svision-accordion-col2"
 						>
 							<div className="accordion-body">
 								Our vision is describe your long-term vision or goals. Were committed to explain how
@@ -110,7 +110,7 @@ function FaqAccordion() {
 						<div
 							id="collapseFive"
 							className="accordion-collapse collapse"
-							data-bs-parent="#aximo-accordion-col2"
+							data-bs-parent="#Svision-accordion-col2"
 						>
 							<div className="accordion-body">
 								Yes, we offer a range of free resources. Check out our resources page for more
@@ -132,7 +132,7 @@ function FaqAccordion() {
 						<div
 							id="collapseSix"
 							className="accordion-collapse collapse"
-							data-bs-parent="#aximo-accordion-col2"
+							data-bs-parent="#Svision-accordion-col2"
 						>
 							<div className="accordion-body">
 								Yes, we have a strong network of investors and can facilitate introductions. Our

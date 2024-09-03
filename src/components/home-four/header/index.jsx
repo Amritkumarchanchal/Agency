@@ -19,7 +19,7 @@ function Header() {
 	const [showSideMenu, setShowSideMenu] = useState(false);
 	return (
 		<header
-			className="site-header site-header--menu-center aximo-header-section aximo-header4 bg-light4"
+			className="site-header site-header--menu-center Svision-header-section Svision-header4 bg-light4"
 			id="sticky-menu"
 		>
 			<div className="container">

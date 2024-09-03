@@ -3,14 +3,14 @@ import TeamCard from "./TeamCard";
 
 function Teams({ teams }) {
 	return (
-		<div className="section aximo-section-padding3">
+		<div className="section Svision-section-padding3">
 			<div className="container">
-				<div className="aximo-section-title center">
+				<div className="Svision-section-title center">
 					<h2>
 						We have a team of
-						<span className="aximo-title-animation">
+						<span className="Svision-title-animation">
 							creative people
-							<span className="aximo-title-icon">
+							<span className="Svision-title-icon">
 								<img src={Star2Img} alt="Star2Img" />
 							</span>
 						</span>

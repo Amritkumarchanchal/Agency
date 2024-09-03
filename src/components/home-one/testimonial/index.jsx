@@ -50,14 +50,14 @@ const testimonialsData = [
 
 function Testimonial() {
 	return (
-		<div className="section aximo-section-padding3">
+		<div className="section Svision-section-padding3">
 			<div className="container">
-				<div className="aximo-section-title center">
+				<div className="Svision-section-title center">
 					<h2>
 						Clients are always
-						<span className="aximo-title-animation">
+						<span className="Svision-title-animation">
 							satisfied with us
-							<span className="aximo-title-icon">
+							<span className="Svision-title-icon">
 								<img src={Star2Img} alt="Star2Img" />
 							</span>
 						</span>

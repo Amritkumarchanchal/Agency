@@ -3,25 +3,25 @@ import Shape1Img from "../../../assets/images/v3/shape1.png";
 import Thumb2Img from "../../../assets/images/v3/thumb2.png";
 function AboutTwo() {
 	return (
-		<div className="section aximo-section-padding6 overflow-hidden">
+		<div className="section Svision-section-padding6 overflow-hidden">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5 order-lg-1 offset-lg-1">
-						<div className="aximo-content-thumb ">
+						<div className="Svision-content-thumb ">
 							<img src={Thumb2Img} alt="Thumb2Img" />
-							<div className="aximo-thumb-shape2">
+							<div className="Svision-thumb-shape2">
 								<img src={Shape1Img} alt="Shape1Img" />
 							</div>
 						</div>
 					</div>
 					<div className="col-lg-6">
-						<div className="aximo-default-content familjen-grotesk">
+						<div className="Svision-default-content familjen-grotesk">
 							<h2>Increase revenue with custom SEO</h2>
 							<p>
 								Our SEO agency will help you reach new audiences, increase your website performance, and
 								accelerate your reputation.
 							</p>
-							<div className="aximo-list-icon">
+							<div className="Svision-list-icon">
 								<ul>
 									<li>
 										<img src={CheckImg} alt="CheckImg" /> On-page optimizing your web pages to

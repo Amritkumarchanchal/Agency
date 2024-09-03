@@ -3,10 +3,10 @@ import NextWhiteImg from "../../../assets/images/v6/next-white.svg";
 function ProjectCard({ project: { title, img, colSize } }) {
 	return (
 		<div className={`col-md-${colSize}`}>
-			<div className="aximo-project-thumb5">
+			<div className="Svision-project-thumb5">
 				<img src={img} alt="project img" />
-				<div className="aximo-marquee-two">
-					<div className="aximo-infinite two">
+				<div className="Svision-marquee-two">
+					<div className="Svision-infinite two">
 						{[...Array(18)].map(() => (
 							<Link key={crypto.randomUUID()} to="/single-portfolio">
 								{title} <img src={NextWhiteImg} alt="Next" />

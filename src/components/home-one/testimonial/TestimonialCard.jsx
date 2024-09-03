@@ -1,8 +1,8 @@
 function TestimonialCard({ testimonial: { rating, title, description, author, designation, img } }) {
 	return (
 		<div className="col-lg-6">
-			<div className="aximo-testimonial-wrap">
-				<div className="aximo-testimonial-rating">
+			<div className="Svision-testimonial-wrap">
+				<div className="Svision-testimonial-rating">
 					<ul>
 						{[...Array(rating)].map(() => (
 							<li key={crypto.randomUUID()}>
@@ -11,15 +11,15 @@ function TestimonialCard({ testimonial: { rating, title, description, author, de
 						))}
 					</ul>
 				</div>
-				<div className="aximo-testimonial-data">
+				<div className="Svision-testimonial-data">
 					<h3>{title}</h3>
 					<p>{description}</p>
 				</div>
-				<div className="aximo-testimonial-author">
-					<div className="aximo-testimonial-author-thumb">
+				<div className="Svision-testimonial-author">
+					<div className="Svision-testimonial-author-thumb">
 						<img src={img} alt={title} />
 					</div>
-					<div className="aximo-testimonial-author-data">
+					<div className="Svision-testimonial-author-data">
 						<p>
 							{author} <span>{designation}</span>
 						</p>

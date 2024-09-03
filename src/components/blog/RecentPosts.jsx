@@ -24,7 +24,7 @@ const recentPostData = [
 ];
 function RecentPosts() {
 	return (
-		<div className="widget aximo_recent_posts_Widget">
+		<div className="widget Svision_recent_posts_Widget">
 			<h3 className="wp-block-heading">Recent Posts:</h3>
 
 			{recentPostData.map((post) => (

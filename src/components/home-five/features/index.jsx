@@ -26,9 +26,9 @@ const featuresData = [
 ];
 function Features() {
 	return (
-		<div className="section aximo-section-padding3">
+		<div className="section Svision-section-padding3">
 			<div className="container">
-				<div className="aximo-section-title libre-font">
+				<div className="Svision-section-title libre-font">
 					<div className="row">
 						<div className="col-lg-7">
 							<h2>Our key feature for productivity gains</h2>
@@ -38,11 +38,11 @@ function Features() {
 				<div className="row">
 					{featuresData.map((feature) => (
 						<div key={feature.id} className="col-xl-4 col-lg-6">
-							<div className="aximo-iconbox-wrap6">
-								<div className="aximo-iconbox-icon6">
+							<div className="Svision-iconbox-wrap6">
+								<div className="Svision-iconbox-icon6">
 									<img src={feature.img} alt={feature.title} />
 								</div>
-								<div className="aximo-iconbox-data6">
+								<div className="Svision-iconbox-data6">
 									<h3>{feature.title}</h3>
 									<p>{feature.description}</p>
 								</div>

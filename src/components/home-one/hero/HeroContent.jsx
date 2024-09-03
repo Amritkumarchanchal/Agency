@@ -6,9 +6,9 @@ import User2Img from "../../../assets/images/v1/user2.png";
 import User3Img from "../../../assets/images/v1/user3.png";
 function HeroContent() {
 	return (
-		<div className="aximo-hero-content">
+		<div className="Svision-hero-content">
 			<h1>
-				<span className="aximo-title-animation">
+				<span className="Svision-title-animation">
 					A creative
 					<img src={StarImg} alt="StarImg" />
 				</span>{" "}
@@ -19,26 +19,26 @@ function HeroContent() {
 								We offer innovative and cutting-edge design solutions to help our clients stand out in
 								today's fast-paced.`}
 			</p>
-			<div className="aximo-hero-user-wrap">
-				<div className="aximo-hero-user-thumb">
-					<div className="aximo-hero-user-thumb-item">
+			<div className="Svision-hero-user-wrap">
+				<div className="Svision-hero-user-thumb">
+					<div className="Svision-hero-user-thumb-item">
 						<img src={User1Img} alt="User1Img" />
 					</div>
-					<div className="aximo-hero-user-thumb-item">
+					<div className="Svision-hero-user-thumb-item">
 						<img src={User3Img} alt="User3Img" />
 					</div>
-					<div className="aximo-hero-user-thumb-item">
+					<div className="Svision-hero-user-thumb-item">
 						<img src={User2Img} alt="User2Img" />
 					</div>
 				</div>
-				<div className="aximo-hero-user-data">
+				<div className="Svision-hero-user-data">
 					<p>Believed by more than a thousand people</p>
 				</div>
 			</div>
-			<Link className="aximo-call-btn" to="/contact-us">
+			<Link className="Svision-call-btn" to="/contact-us">
 				Book a free consultation <i className="icon-call"></i>
 			</Link>
-			<div className="aximo-hero-shape">
+			<div className="Svision-hero-shape">
 				<img src={ShapeImg} alt="ShapeImg" />
 			</div>
 		</div>

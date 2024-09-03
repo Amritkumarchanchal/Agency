@@ -6,7 +6,7 @@ function HeroVideo() {
 	const [isOpen, setOpen] = useState(false);
 
 	return (
-		<div className="aximo-hero-video-section">
+		<div className="Svision-hero-video-section">
 			<ModalVideo
 				channel="youtube"
 				youtube={{ autoplay: 0 }}
@@ -14,9 +14,9 @@ function HeroVideo() {
 				videoId="7e90gBu4pas"
 				onClose={() => setOpen(false)}
 			/>
-			<button className="aximo-video-popup3 video-init" onClick={() => setOpen(true)}>
-				<img className="aximo-video-circle" src={CirclePlayImg} alt="CirclePlayImg" />
-				<img className="aximo-video-icon" src={PlayIconImg} alt="PlayIconImg" />
+			<button className="Svision-video-popup3 video-init" onClick={() => setOpen(true)}>
+				<img className="Svision-video-circle" src={CirclePlayImg} alt="CirclePlayImg" />
+				<img className="Svision-video-icon" src={PlayIconImg} alt="PlayIconImg" />
 			</button>
 		</div>
 	);

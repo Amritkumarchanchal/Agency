@@ -14,7 +14,7 @@ function MessageForm() {
 
 	return (
 		<form onSubmit={handleSubmit(submitForm)}>
-			<div className="aximo-form-field">
+			<div className="Svision-form-field">
 				<Field error={errors.name}>
 					<input
 						{...register("name", { required: "Name is required." })}
@@ -25,7 +25,7 @@ function MessageForm() {
 					/>
 				</Field>
 			</div>
-			<div className="aximo-form-field">
+			<div className="Svision-form-field">
 				<Field error={errors.email}>
 					<input
 						{...register("email", { required: "Email is required." })}
@@ -36,13 +36,13 @@ function MessageForm() {
 					/>
 				</Field>
 			</div>
-			<div className="aximo-form-field">
+			<div className="Svision-form-field">
 				<input type="text" placeholder="+088-234-6849" />
 			</div>
-			<div className="aximo-form-field">
+			<div className="Svision-form-field">
 				<textarea name="textarea" placeholder="Write your message here..."></textarea>
 			</div>
-			<button id="aximo-submit-btn" type="submit">
+			<button id="Svision-submit-btn" type="submit">
 				Send message{" "}
 				<span>
 					<img src={ArrowRight3Img} alt="ArrowRight3Img" />

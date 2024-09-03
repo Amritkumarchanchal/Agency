@@ -2,11 +2,11 @@ import Shape1Img from "../../../assets/images/v1/shape1.png";
 import Star2Img from "../../../assets/images/v1/star2.png";
 function FooterContent() {
 	return (
-		<div className="aximo-default-content light position-relative">
+		<div className="Svision-default-content light position-relative">
 			<h2>
-				<span className="aximo-title-animation">
+				<span className="Svision-title-animation">
 					Lets start a
-					<span className="aximo-title-icon">
+					<span className="Svision-title-icon">
 						<img src={Star2Img} alt="Star2Img" />
 					</span>
 				</span>
@@ -17,8 +17,8 @@ function FooterContent() {
 				We work closely with our clients to understand their objectives, target audience, and unique needs. We
 				use our creative skills to translate these requirements and practical design solutions.
 			</p>
-			<div className="aximo-info-wrap">
-				<div className="aximo-info">
+			<div className="Svision-info-wrap">
+				<div className="Svision-info">
 					<ul>
 						<li>Give us a call:</li>
 						<li>
@@ -26,7 +26,7 @@ function FooterContent() {
 						</li>
 					</ul>
 				</div>
-				<div className="aximo-info">
+				<div className="Svision-info">
 					<ul>
 						<li>Send us an email:</li>
 						<li>
@@ -35,7 +35,7 @@ function FooterContent() {
 					</ul>
 				</div>
 			</div>
-			<div className="aximo-social-icon social-large">
+			<div className="Svision-social-icon social-large">
 				<ul>
 					<li>
 						<a href="https://twitter.com/" target="_blank">
@@ -59,7 +59,7 @@ function FooterContent() {
 					</li>
 				</ul>
 			</div>
-			<div className="aximo-hero-shape aximo-footer-shape">
+			<div className="Svision-hero-shape Svision-footer-shape">
 				<img src={Shape1Img} alt="Shape1Img" />
 			</div>
 		</div>

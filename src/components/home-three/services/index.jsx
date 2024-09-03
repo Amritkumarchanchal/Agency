@@ -36,19 +36,19 @@ const servicesData = [
 ];
 function Services() {
 	return (
-		<div className="section aximo-section-padding dark-bg overflow-hidden position-relative">
+		<div className="section Svision-section-padding dark-bg overflow-hidden position-relative">
 			<div className="container">
-				<div className="aximo-section-title center familjen-grotesk light">
+				<div className="Svision-section-title center familjen-grotesk light">
 					<h2>Our professional SEO services for you</h2>
 				</div>
-				<div className="aximo-iconbox-column">
+				<div className="Svision-iconbox-column">
 					{servicesData.map((service) => (
 						<ServiceCard key={service.id} service={service} />
 					))}
 				</div>
 			</div>
 
-			<div className="aximo-iconbox-shape">
+			<div className="Svision-iconbox-shape">
 				<img src={StarShapeHalfImg} alt="StarShapeHalfImg" />
 			</div>
 		</div>

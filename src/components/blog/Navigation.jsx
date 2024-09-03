@@ -1,7 +1,7 @@
 import ArrowRightImg from "../../assets/images/icon/arrow-right8.svg";
 function Navigation() {
 	return (
-		<div className="aximo-navigation">
+		<div className="Svision-navigation">
 			<nav className="navigation pagination" aria-label="Posts">
 				<div className="nav-links">
 					<span aria-current="page" className="page-numbers current">

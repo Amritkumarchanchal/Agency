@@ -3,14 +3,14 @@ function FooterBottom() {
 	return (
 		<>
 			<div className="col-lg-6">
-				<div className="aximo-footer-logo">
+				<div className="Svision-footer-logo">
 					<a href="">
 						<img src={LogoWhiteImg} alt="Logo" />
 					</a>
 				</div>
 			</div>
 			<div className="col-lg-6">
-				<div className="aximo-copywright one">
+				<div className="Svision-copywright one">
 					<p> &copy; Copyright 2024, All Rights Reserved by Mthemeus</p>
 				</div>
 			</div>

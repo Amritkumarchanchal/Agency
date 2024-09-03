@@ -21,7 +21,7 @@ export default function ScrollToTop() {
 	};
 	return (
 		showTopBtn && (
-			<div className="aximo-go-top" onClick={goToTop}>
+			<div className="Svision-go-top" onClick={goToTop}>
 				<i className="fas fa-arrow-up"></i>
 			</div>
 		)

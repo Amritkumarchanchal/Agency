@@ -7,7 +7,7 @@ function Video() {
 	const [isOpen, setOpen] = useState(false);
 
 	return (
-		<div className="aximo-video-wrap">
+		<div className="Svision-video-wrap">
 			<img src={VideoBg} alt="VideoBg" />
 			<ModalVideo
 				channel="youtube"
@@ -16,7 +16,7 @@ function Video() {
 				videoId="Vx2aLNgGoAE"
 				onClose={() => setOpen(false)}
 			/>
-			<button className="aximo-video-popup play-btn1 video-init" onClick={() => setOpen(true)}>
+			<button className="Svision-video-popup play-btn1 video-init" onClick={() => setOpen(true)}>
 				<img src={PlayBtnImg} alt="PlayBtnImg" />
 			</button>
 		</div>

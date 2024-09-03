@@ -16,7 +16,7 @@ const testimonialsData = [
 		id: crypto.randomUUID(),
 		rating: 5,
 		content:
-			"Aximo has been a game-changer for our startup. Their team guided us through the development of a custom software solution perfectly suited us.",
+			"Svision has been a game-changer for our startup. Their team guided us through the development of a custom software solution perfectly suited us.",
 		author: "Willium Joe",
 		designation: "VP of Marketing",
 		img: Thumb2Img,
@@ -33,11 +33,11 @@ const testimonialsData = [
 ];
 function Testimonials() {
 	return (
-		<div className="bg-orange aximo-section-padding extra-side-margin">
+		<div className="bg-orange Svision-section-padding extra-side-margin">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-7">
-						<div className="aximo-default-content clash-grotesk aximo-sticky">
+						<div className="Svision-default-content clash-grotesk Svision-sticky">
 							<h2>Appreciation from our loving clients</h2>
 							<p>
 								Its wonderful to hear that our clients appreciate our services! Client appreciation is
@@ -46,7 +46,7 @@ function Testimonials() {
 						</div>
 					</div>
 					<div className="col-lg-5">
-						<div className="aximo-testimonial-column">
+						<div className="Svision-testimonial-column">
 							{testimonialsData.map((testimonial) => (
 								<TestimonialCard key={testimonial.id} testimonial={testimonial} />
 							))}

@@ -36,9 +36,9 @@ const testimonialsData = [
 
 function Testimonials() {
 	return (
-		<div className="section bg-light7 aximo-section-padding5">
+		<div className="section bg-light7 Svision-section-padding5">
 			<div className="container">
-				<div className="aximo-section-title playfair center">
+				<div className="Svision-section-title playfair center">
 					<h2>Expressions of our satisfied customers</h2>
 				</div>
 				<div className="row">
@@ -46,8 +46,8 @@ function Testimonials() {
 						<TestimonialCard key={testimonial.id} testimonial={testimonial} />
 					))}
 				</div>
-				<div className="aximo-bottom-center">
-					<Link className="aximo-default-btn green-btn pill" to="/testimonial">
+				<div className="Svision-bottom-center">
+					<Link className="Svision-default-btn green-btn pill" to="/testimonial">
 						<span>Explore All Reviews</span>
 					</Link>
 				</div>

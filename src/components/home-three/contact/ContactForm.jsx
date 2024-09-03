@@ -12,7 +12,7 @@ function ContactForm() {
 
 	return (
 		<form onSubmit={handleSubmit(submitForm)}>
-			<div className="aximo-form-field2">
+			<div className="Svision-form-field2">
 				<Field error={errors.fname}>
 					<input
 						{...register("fname", { required: "Full Name is required." })}
@@ -23,7 +23,7 @@ function ContactForm() {
 					/>
 				</Field>
 			</div>
-			<div className="aximo-form-field2">
+			<div className="Svision-form-field2">
 				<Field error={errors.email}>
 					<input
 						{...register("email", { required: "Email is required." })}
@@ -34,12 +34,12 @@ function ContactForm() {
 					/>
 				</Field>
 			</div>
-			<div className="aximo-form-field2">
+			<div className="Svision-form-field2">
 				<textarea name="textarea" placeholder="Write us your questions"></textarea>
 			</div>
-			<button id="aximo-submit-btn2" type="submit">
-				<span className="aximo-label-up">Submit now</span>
-				<span className="aximo-label-up">Submit now</span>
+			<button id="Svision-submit-btn2" type="submit">
+				<span className="Svision-label-up">Submit now</span>
+				<span className="Svision-label-up">Submit now</span>
 			</button>
 		</form>
 	);

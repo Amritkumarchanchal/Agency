@@ -21,7 +21,7 @@ function Header() {
 
 	return (
 		<header
-			className={`site-header aximo-header-section aximo-header7 ${scroll ? "sticky-menu" : ""}`}
+			className={`site-header Svision-header-section Svision-header7 ${scroll ? "sticky-menu" : ""}`}
 			id="sticky-menu"
 		>
 			<div className="container">

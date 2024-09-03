@@ -38,14 +38,14 @@ const faqData = {
 };
 function TwoColumnFaq() {
 	return (
-		<div className="section aximo-section-padding">
+		<div className="section Svision-section-padding">
 			<div className="container">
-				<div className="aximo-section-title center">
+				<div className="Svision-section-title center">
 					<h2>
 						These FAQs help
-						<span className="aximo-title-animation">
+						<span className="Svision-title-animation">
 							clients learn about us
-							<span className="aximo-title-icon">
+							<span className="Svision-title-icon">
 								<img src={Star2Img} alt="Star" />
 							</span>
 						</span>
@@ -53,13 +53,13 @@ function TwoColumnFaq() {
 				</div>
 				<div className="row">
 					<div className="col-lg-6">
-						<div className="aximo-accordion-normal-wrap responsive-margin">
+						<div className="Svision-accordion-normal-wrap responsive-margin">
 							{faqData.faq1.map((faq) => (
-								<div key={faq.id} className="aximo-accordion-normal-item">
-									<div className="aximo-accordion-normal-icon">
+								<div key={faq.id} className="Svision-accordion-normal-item">
+									<div className="Svision-accordion-normal-icon">
 										<img src={QuestionImg} alt="QuestionImg" />
 									</div>
-									<div className="aximo-accordion-normal-data">
+									<div className="Svision-accordion-normal-data">
 										<h3>{faq.title}</h3>
 										<p>{faq.text}</p>
 									</div>
@@ -68,13 +68,13 @@ function TwoColumnFaq() {
 						</div>
 					</div>
 					<div className="col-lg-6">
-						<div className="aximo-accordion-normal-wrap">
+						<div className="Svision-accordion-normal-wrap">
 							{faqData.faq2.map((faq) => (
-								<div key={faq.id} className="aximo-accordion-normal-item">
-									<div className="aximo-accordion-normal-icon">
+								<div key={faq.id} className="Svision-accordion-normal-item">
+									<div className="Svision-accordion-normal-icon">
 										<img src={QuestionImg} alt="QuestionImg" />
 									</div>
-									<div className="aximo-accordion-normal-data">
+									<div className="Svision-accordion-normal-data">
 										<h3>{faq.title}</h3>
 										<p>{faq.text}</p>
 									</div>

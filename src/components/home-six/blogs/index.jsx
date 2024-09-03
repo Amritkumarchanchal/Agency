@@ -23,16 +23,16 @@ const blogsData = [
 ];
 function Blogs() {
 	return (
-		<div className="section aximo-section-padding3">
+		<div className="section Svision-section-padding3">
 			<div className="container">
-				<div className="aximo-section-title playfair">
+				<div className="Svision-section-title playfair">
 					<div className="row">
 						<div className="col-lg-8">
 							<h2>Check out our latest articles and news</h2>
 						</div>
 						<div className="col-lg-4 d-flex align-items-center">
-							<div className="aximo-title-btn">
-								<Link className="aximo-default-btn green-btn pill" to="/blog">
+							<div className="Svision-title-btn">
+								<Link className="Svision-default-btn green-btn pill" to="/blog">
 									<span>Explore All Blogs</span>
 								</Link>
 							</div>

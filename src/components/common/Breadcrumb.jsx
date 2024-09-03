@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function BreadCrumb({ title }) {
 	return (
-		<div className="aximo-breadcrumb">
+		<div className="Svision-breadcrumb">
 			<div className="container">
 				<h1 className="post__title">{title}</h1>
 				<nav className="breadcrumbs">
