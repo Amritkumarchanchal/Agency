@@ -12,10 +12,10 @@ function HeroContent() {
 					A creative
 					<img src={StarImg} alt="StarImg" />
 				</span>{" "}
-				multimedia agency
+				MultiMedia Agency
 			</h1>
 			<p>
-				{`We create stunning websites, manage innovative designs, promote your brand, and handle all your Social Media needs.`}
+				{`We create stunning websites, manage innovative designs, promote your brand, and handle all your Social Media account needs.`}
 			</p>
 			<div className="Svision-hero-user-wrap">
 				<div className="Svision-hero-user-thumb">

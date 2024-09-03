@@ -10,26 +10,26 @@ import { Pagination, Mousewheel } from "swiper/modules";
 const projectsData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
+		title: "Website Development",
+		description: "Creating responsive, user-friendly, and visually appealing websites that enhance your brand’s online presence and drive engagement.",
 		img: Project1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description: "Creating or refreshing a company's logo and developing a cohesive visual identity.",
+		title: "Ads Account Management",
+		description: "Managing your ad accounts across various platforms, optimizing performance, and ensuring your campaigns reach the right audience.",
 		img: Project2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "App UI/UX Design",
-		description: "Designing the UI/UXe for mobile apps and web applications to ensure usability & engagement.",
+		title: "Brand Promotion",
+		description: "Boosting your brand’s visibility through targeted marketing strategies, creative campaigns, and impactful storytelling.",
 		img: Project3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Packaging Design",
-		description: "Creating packaging solutions for products that not only protect attract customers on store.",
+		title: "Social Media Management",
+		description: "Handling your social media presence by crafting engaging content, interacting with followers, and growing your online community.",
 		img: Project4Img,
 	},
 	{
