@@ -30,16 +30,16 @@ const servicesData = [
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Web Design",
+		title: "Web development",
 		description:
 			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
 		icon: "icon-web",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Motion Graphics",
+		title: "Social Media Manager",
 		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
+			"We manage your social media accounts, creating posts and engaging with your audience. Let us help you grow your online presence.",
 		icon: "icon-design-thinking",
 	},
 ];
@@ -47,25 +47,25 @@ const servicesData = [
 const teamsData = [
 	{
 		id: crypto.randomUUID(),
-		name: "Andrew Mark",
-		designation: "Creative Director",
+		name: "Ayush Ranjan",
+		designation: "CEO of Svision",
 		img: Team1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Jack Taylor",
+		name: "Yash",
 		designation: "Senior Designer",
 		img: Team2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Martine Joy",
+		name: "Sharnya Goyal",
 		designation: "Project Manager",
 		img: Team3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Adam Straw",
+		name: "Prabhat Ranjan",
 		designation: "Web Developer",
 		img: Team4Img,
 	},

@@ -12,8 +12,8 @@ import Team4Img from "../assets/images/team/team4.png";
 const teamsData = [
 	{
 		id: crypto.randomUUID(),
-		name: "Andrew Mark",
-		designation: "Creative Director",
+		name: "Ayush Ranjan",
+		designation: "CEO Of SVision",
 		img: Team1Img,
 	},
 	{
@@ -24,7 +24,7 @@ const teamsData = [
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Martine Joy",
+		name: "Sharnya Goyal",
 		designation: "Project Manager",
 		img: Team3Img,
 	},

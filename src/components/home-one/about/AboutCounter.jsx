@@ -5,7 +5,7 @@ function AboutCounter() {
 			<div className="Svision-counter-data">
 				<h2 className="Svision-counter-number">
 					<span className="Svision-counter">
-						<CountUp end={15} duration={3} redraw={true} enableScrollSpy />
+						<CountUp end={3} duration={0} redraw={true} enableScrollSpy />
 					</span>
 					+
 				</h2>
@@ -14,9 +14,9 @@ function AboutCounter() {
 			<div className="Svision-counter-data">
 				<h2 className="Svision-counter-number">
 					<span className="Svision-counter">
-						<CountUp end={120} duration={3} redraw={true} enableScrollSpy />
+						<CountUp end={92} duration={3} redraw={true} enableScrollSpy />
 					</span>
-					k
+					s
 				</h2>
 				<p>Successful projects</p>
 			</div>

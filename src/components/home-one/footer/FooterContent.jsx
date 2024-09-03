@@ -22,7 +22,7 @@ function FooterContent() {
 					<ul>
 						<li>Give us a call:</li>
 						<li>
-							<a href="tel:(123) 456-7890">(123) 456-7890</a>
+							<a href="tel:(123) 456-7890">(737) 000-1137</a>
 						</li>
 					</ul>
 				</div>
@@ -30,7 +30,7 @@ function FooterContent() {
 					<ul>
 						<li>Send us an email:</li>
 						<li>
-							<a href="mailto:info@mthemeus.com">info@mthemeus.com</a>
+							<a href="mailto:info@mthemeus.com">decoded.ayush@gmail.com</a>
 						</li>
 					</ul>
 				</div>

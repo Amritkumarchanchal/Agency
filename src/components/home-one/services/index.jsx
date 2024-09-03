@@ -9,7 +9,7 @@ function Services({ services }) {
 					<h2>
 						We provide effective
 						<span className="Svision-title-animation">
-							design solutions
+							Multi Media solutions
 							<span className="Svision-title-icon">
 								<img src={Star2Img} alt="Star2Img" />
 							</span>

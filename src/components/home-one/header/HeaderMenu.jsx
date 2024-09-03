@@ -14,7 +14,7 @@ function HeaderMenu() {
 				<ul className="site-menu-main">
 					<li className="nav-item nav-item-has-children">
 						<a href="#" className="nav-link-item drop-trigger">
-							Demo <i className="fas fa-angle-down"></i>
+							Home <i className="fas fa-angle-down"></i>
 						</a>
 						<ul className="sub-menu" id="submenu-1">
 							<li className="sub-menu--item">
@@ -90,7 +90,7 @@ function HeaderMenu() {
 								<ul className="sub-menu shape-none" id="submenu-5">
 									<li className="sub-menu--item">
 										<Link to="/team">
-											<span className="menu-item-text">team</span>
+											<span className="menu-item-text">teams</span>
 										</Link>
 									</li>
 									<li className="sub-menu--item">

@@ -25,8 +25,8 @@ function ContactInfo() {
 								</div>
 								<div className="Svision-contact-info-data">
 									<span>Call us</span>
-									<p>+088-234-6532-789</p>
-									<p>+088-456-3217-005</p>
+									<p>+091-737-0001-137</p>
+									<p>+091-756-3217-005</p>
 								</div>
 							</div>
 						</a>
@@ -39,8 +39,8 @@ function ContactInfo() {
 								</div>
 								<div className="Svision-contact-info-data">
 									<span>Call us</span>
-									<p>example@gmail.com</p>
-									<p>example@gmail.com</p>
+									<p>admin@svision.tech</p>
+									<p>ayush@svision.tech</p>
 								</div>
 							</div>
 						</a>
@@ -52,7 +52,7 @@ function ContactInfo() {
 							</div>
 							<div className="Svision-contact-info-data">
 								<span>Office address</span>
-								<p>4132 Thornridge City, New York.</p>
+								<p>Will Be Updating Soon in a week</p>
 							</div>
 						</div>
 					</div>
