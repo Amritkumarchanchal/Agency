@@ -19,37 +19,7 @@ function HeaderMenu() {
 						<ul className="sub-menu" id="submenu-1">
 							<li className="sub-menu--item">
 								<Link to="/">
-									<span className="menu-item-text">Design Agency</span>
-								</Link>
-							</li>
-							<li className="sub-menu--item">
-								<Link to="/home-two">
-									<span className="menu-item-text">Startup Agency</span>
-								</Link>
-							</li>
-							<li className="sub-menu--item">
-								<Link to="/home-three">
-									<span className="menu-item-text">SEO Agency</span>
-								</Link>
-							</li>
-							<li className="sub-menu--item">
-								<Link to="/home-four">
-									<span className="menu-item-text">Business Consultation</span>
-								</Link>
-							</li>
-							<li className="sub-menu--item">
-								<Link to="/home-five">
-									<span className="menu-item-text">Digital Marketing</span>
-								</Link>
-							</li>
-							<li className="sub-menu--item">
-								<Link to="/home-six">
-									<span className="menu-item-text">Interior Design Agency</span>
-								</Link>
-							</li>
-							<li className="sub-menu--item">
-								<Link to="/home-seven">
-									<span className="menu-item-text">Advertising agency</span>
+									<span className="menu-item-text">Home</span>
 								</Link>
 							</li>
 						</ul>
