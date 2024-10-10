@@ -30,8 +30,8 @@ const teamsData = [
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Adam Straw",
-		designation: "Web Developer",
+		name: "Amrit Kumar Chanchal ",
+		designation: "Ads acc manager",
 		img: Team4Img,
 	},
 ];
